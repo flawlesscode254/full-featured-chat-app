@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  text-align: center;
+}
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #ebe9ea;
+  width: 100%;
+}
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.titles {
+  background-color: #00bfff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+#typing {
+  opacity: 0;
+  padding-bottom: 20px;
+}
+.title_head {
+  text-align: center;
+}
+.signed {
+  height: 100vh;
+  position: relative;
+}
+.signed Button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 -50% 0 0;
+  transform: translate(-50%, -50%);
+}
+#mew {
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+}
+.changers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 10px;
+}
+#remind {
+  height: 45px;
+  width: 50px;
+  border-radius: 999px;
+  opacity: 0;
+}
+.message {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px;
+}
+.message,
+.message__user {
+  padding-bottom: 0 !important;
+}
+.message__user {
+  margin-left: auto;
+  color: #fff;
+  text-align: left !important;
+}
+.message__userCard {
+  background-color: #181881 !important;
+  color: #fff !important;
+}
+.message__guestCard,
+.message__userCard {
+  padding-bottom: 0 !important;
+  font-size: 15px;
+}
+.message__guestCard {
+  background-color: #e6e3df !important;
+}
+.message__name {
+  text-align: left;
+  padding-bottom: 0 !important;
+  font-size: 9px;
+}
+.teller_user,
+.users__name {
+  text-align: right;
+}
+.teller_guest,
+.teller_user,
+.users__name {
+  padding-bottom: 0 !important;
+  font-size: 9px;
+}
+.indicator,
+.teller_guest {
+  text-align: left;
+}
+.indicator {
+  font-size: 13px;
+  color: red;
+}
+/*# sourceMappingURL=main.fb9a384d.chunk.css.map */
+
+.app__iconButton {
+  color: gray;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.spacer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 50px;
+}
+
